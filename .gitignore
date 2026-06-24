@@ -1,0 +1,38 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Project generated/output folders
+docs/
+sgcc_material/
+logs/
+checkpoints/
+output_*.json
+my_readme.md
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
